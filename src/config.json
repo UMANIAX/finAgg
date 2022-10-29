@@ -1,0 +1,68 @@
+{
+    "icici": {
+        "landing_page": "https://infinity.icicibank.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=ICI&ITM=nli_personalb_personal_login_btn&_ga=2.170595168.1711264260.1661078999-933513959.1642398814&_gl=1*1mf4049*_ga*OTMzNTEzOTU5LjE2NDIzOTg4MTQ.*_ga_SKB78GHTFV*MTY2MTA3OTAwMC4xMy4xLjE2NjEwODA0OTQuNjAuMC4w",
+        "login_html_tags": {
+            "username": {
+                "tag": "AuthenticationFG.USER_PRINCIPAL",
+                "type": "id"
+            },
+            "password": {
+                "tag": "AuthenticationFG.ACCESS_CODE",
+                "type": "id"
+            },
+            "submit": {
+                "tag": "VALIDATE_CREDENTIALS1",
+                "type": "id"
+            }
+        },
+        "icici_tags": {
+            "username_dummy": {
+                "tag": "DUMMY1",
+                "type": "id"
+            }
+        }
+    },
+    "groww": {
+        "landing_page": "https://groww.in/login",
+        "login_html_tags": {
+            "username": {
+                "tag": "login_email1",
+                "type": "id"
+            },
+            "username_continue": {
+                "tag": "btn51ParentDimension",
+                "type": "class"
+            },
+            "password": {
+                "tag": "login_password1",
+                "type": "id"
+            },
+            "submit": {
+                "tag": "leps592LoginButton",
+                "type": "class"
+            },
+            "pin": {
+                "tag": "otpinput88",
+                "type": "classes"
+            }
+        },
+        "mf_tags": {
+            "mf_nav_bar": {
+                "tag": "//div[contains(@class, 'dashboardTabsText') and text() = 'Mutual Funds']",
+                "type": "xpath"
+            },
+            "mf_investments": {
+                "tag": "//div[text() = 'Invested']",
+                "type": "xpath"
+            }
+        },
+        "mf_network_data_uri": "https://groww.in/v1/api/aggregator/v1/dashboard"
+    },
+    "creds": {
+        "encrypted_file_path": "src/creds_lock.txt",
+        "decrypted_file_path": "src/creds.json"
+    },
+    "web": {
+        "firefox_profile_path": "/Users/umaniax/Library/Application Support/Firefox/Profiles/p6n19ffr.default-release"
+    }
+}
